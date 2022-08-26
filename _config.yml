@@ -1,7 +1,7 @@
 # The Site Configuration
 
 theme: jekyll-theme-chirpy
-baseurl: "/PROJECT_NAME"
+baseurl: "/"
 lang: ko-KR
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
