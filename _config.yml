@@ -3,26 +3,18 @@
 theme: jekyll-theme-chirpy
 baseurl: "/"
 lang: ko-KR
-
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
-
+prefer_datetime_locale: ko
+timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: David's dev blog
-tagline: David's dev blog
+tagline: 개발하며 배우는 것들을 기록합니다
 description: >-
   David's dev blog
 url: "https://david02324.github.io"
 github:
   username: david02324
-
-twitter:
-  username: twitter_username # change to your twitter username
 
 social:
   name: David
@@ -39,11 +31,6 @@ google_analytics:
     proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path: # the local PV cache data, friendly to visitors from GFW region
 
-# Available options:
-#
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
-#
 theme_mode: dark
 
 # The CDN endpoint for images.
@@ -53,7 +40,7 @@ theme_mode: dark
 # e.g. 'https://cdn.com'
 img_cdn:
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/74395374?s=400&v=4
 # boolean type, the global switch for ToC in posts.
 toc: true
 
