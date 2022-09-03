@@ -30,7 +30,7 @@ AWS의 lambda 는 standalone 에 비해 상대적으로 개발하기 간편하�
 ![lambda features](../assets/img/localstack-and-lambda/lambda.png){: width="50%"}
 _lambda features_
 
-이번에 눈여겨 볼 부분은 [lambda](https://docs.localstack.cloud/localstack/coverage/#lambda)와 [api gateway](https://docs.localstack.cloud/localstack/coverage/#apigateway) 이고 람다의 경우 기본적인 기능은 물론 Pro 를 사용하면 Layer 등을 붙여볼 수도 있다.
+이번에 눈여겨 볼 부분은 [lambda](https://docs.localstack.cloud/localstack/coverage/#lambda)와 dynamodb 및 stream 이고 람다의 경우 기본적인 기능은 물론 Pro 를 사용하면 Layer 등을 붙여볼 수도 있다.
 
 ## 목표 및 개발 환경
 
@@ -103,7 +103,7 @@ func main() {
 
 ## docker-compose.yml 작성
 
-이제 docker-compsoe.yml 파일을 작성한다. 컨테이너는 2개로, **localstack** 과 **postgresql** 이다.
+이제 docker-compsoe.yml 파일을 작성한다. 컨테이너는 3개로, **localstack** 과 **dynamodb admin**, **elasticsearch** 이다. DyanmoDB Admin은 로컬 개발할때 DDB 관리하기 편리하여 추가하였다.
 
 ```yml
 version: "3.3"
