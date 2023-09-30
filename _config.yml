@@ -8,10 +8,10 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: David's dev blog
+title: David's tech blog
 tagline: 개발하며 배우는 것들을 기록합니다
 description: >-
-  David's dev blog
+  David's tech blog
 url: "https://blog.jangdaw.it"
 github:
   username: david02324
@@ -21,7 +21,7 @@ social:
   email: jangdawit@gmail.com
   links:
     - https://github.com/david02324
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/jangdawit/
 
 google_site_verification: -1qWyBGSOHrgveoJ1qU7bTALt0m0Cg-yuHpBYEZmk44
 google_analytics:
