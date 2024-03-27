@@ -1,8 +1,8 @@
 ---
 layout: post
 title: localstack 으로 로컬 환경에서 lambda 개발 및 테스트 환경 구축하기
-categories: [AWS, lambda]
-tags: [aws, lambda, serverless, test, localstack]
+categories: [Infra, AWS, lambda]
+tags: [aws, lambda, serverless, test, localstack, golang]
 ---
 
 # 서론
